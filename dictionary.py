@@ -33,3 +33,10 @@ languages =[
             {"name" : "JavaScript", "framework" : "VueJS"} 
             ]
 print(languages[2]['name'])
+
+a = {"id": 5, "username": "collynes", "email" : "collins@gmail.com"}
+b = {"id": 5, "username": "collynes", "email" : "jumah@gmail"}
+print(a | b)
+
+#unpacking syntax
+print(**b, **a)

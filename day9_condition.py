@@ -51,3 +51,11 @@ elif a < 0:
     print('A is negative')
 else:
     print('A is zero')
+    
+#Exercise
+enter_age = input("Enter Age:")
+remainder = 18 - enter_age
+if enter_age > 18:
+     print("You are old enough to drive.")
+else:
+    print(f"You need %d more years to drive." %(remainder) )
